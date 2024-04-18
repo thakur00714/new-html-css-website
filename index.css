@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-header {
+    background-color: rgb(88, 206, 186);
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+}
+
+.section-1 img {
+    width: 200px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+
+/*  section-2 */
+.section-2 h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-2 {
+    margin-top: 40px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+
+
+
+}
+
+#container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.s-1 {
+    align-items: center;
+    text-align: center;
+}
+
+.s-1 img {
+    width: 300px;
+    height: auto;
+}
+
+.s-1 button {
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    font-weight: 700;
+    background-color: rgb(88, 206, 186);
+    border: none;
+    cursor: pointer;
+
+}
+
+.s-1 button:hover {
+    background-color: rgba(88, 206, 186, 0.651);
+}
+
+.ss-1 {
+    width: 70%;
+    margin: auto;
+}
+
+.line {
+    border: 1px solid rgb(88, 206, 186);
+    height: 80px;
+}
+
+/* section-3 */
+
+
+.section-3 {
+
+    background-image: url(image/What-is-a-digital-agency-3.jpg);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+    border-bottom: 1px dotted white;
+
+}
+
+.b {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-3 p {
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.section-3 .b {
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 300px;
+    margin: auto
+}
+
+.section-3 .b h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#container-3 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: #202222;
+    margin: auto;
+    align-content: center;
+
+
+
+}
+
+.f {
+    width: 90%;
+    margin: auto;
+}
+
+.f-1 {
+    float: left;
+}
+
+.f-2 {
+    float: right;
+}
+
+.ff {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid white;
+}
+
+/*  */
+@media screen and (max-width: 900px) {
+    #container {
+        width: 90%;
+    }
+
+    .s-1 img {
+        width: 150px;
+        height: auto;
+
+    }
+
+    .section-1 img {
+        width: 150px;
+        height: auto;
+    }
+
+    .section-2 {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+    .section-3 .b h1 {
+        font-size: 18px;
+        padding: 0;
+
+    }
+
+    .section-3 .b {
+        height: auto;
+    }
+
+    .section-3 {
+        height: auto;
+    }
+
+    .section-3 p {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .b {
+        width: 95%;
+        margin: 0;
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #container-3 form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    form input {
+        height: 30px;
+        width: 250px;
+
+        margin-bottom: 20px;
+    }
+
+    .b-2 {
+        margin-top: 20px;
+
+    }
+
+    /* footer */
+    footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .f{
+        height: auto;
+        font-size: 15px;
+    
+    }
+    .f-1{
+        margin-bottom: 20px;
+        float: left;
+        
+    }
+
+    .f-2{
+        float: left;
+    }
+
+}
